@@ -1,0 +1,55 @@
+{
+  "lines": [
+    {
+      "id": "line_1",
+      "name": "Linja 1",
+      "route": "Fushë Kosovë → Katedralja → Rilindja → Dardania",
+      "frequency_minutes": 15,
+      "stations": [
+        { "name": "Fushë Kosovë", "lat": 42.635, "lng": 21.093 },
+        { "name": "Rrethi i Madh", "lat": 42.648, "lng": 21.145 },
+        { "name": "Katedralja", "lat": 42.659, "lng": 21.159 },
+        { "name": "Rilindja", "lat": 42.660, "lng": 21.163 },
+        { "name": "Sheshi Skënderbeu", "lat": 42.662, "lng": 21.165 },
+        { "name": "Dardania", "lat": 42.651, "lng": 21.168 }
+      ]
+    },
+    {
+      "id": "line_2",
+      "name": "Linja 2",
+      "route": "Qendra → Aeroporti Adem Jashari",
+      "frequency_minutes": 30,
+      "stations": [
+        { "name": "Sheshi Skënderbeu", "lat": 42.662, "lng": 21.165 },
+        { "name": "Veternik", "lat": 42.660, "lng": 21.120 },
+        { "name": "Fushë Kosovë Terminali", "lat": 42.635, "lng": 21.093 },
+        { "name": "Aeroporti Adem Jashari", "lat": 42.572, "lng": 21.035 }
+      ]
+    },
+    {
+      "id": "line_3",
+      "name": "Linja 3",
+      "route": "Kodra e Trimave → Qendra → Bregu i Diellit",
+      "frequency_minutes": 10,
+      "stations": [
+        { "name": "Kodra e Trimave", "lat": 42.678, "lng": 21.161 },
+        { "name": "Xhamia e Llapit", "lat": 42.668, "lng": 21.163 },
+        { "name": "Sheshi Skënderbeu", "lat": 42.662, "lng": 21.165 },
+        { "name": "Bregu i Diellit", "lat": 42.645, "lng": 21.171 }
+      ]
+    },
+    {
+      "id": "line_4",
+      "name": "Linja 4",
+      "route": "Gërmi → Qendra → Mati 1",
+      "frequency_minutes": 10,
+      "stations": [
+        { "name": "Gërmi", "lat": 42.674, "lng": 21.196 },
+        { "name": "Rruga B", "lat": 42.652, "lng": 21.173 },
+        { "name": "Sheshi Skënderbeu", "lat": 42.662, "lng": 21.165 },
+        { "name": "Suni Hill", "lat": 42.647, "lng": 21.174 },
+        { "name": "Mati 1", "lat": 42.639, "lng": 21.178 }
+      ]
+    }
+  ]
+}

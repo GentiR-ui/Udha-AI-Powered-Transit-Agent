@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+pydantic
+google-adk==1.28.0
