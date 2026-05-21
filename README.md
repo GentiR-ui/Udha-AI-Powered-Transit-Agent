@@ -1,6 +1,6 @@
 # 🚌 Udha - AI-Powered Transit & Navigation Agent for Prishtina
 
-![Udha Architecture](https://img.shields.io/badge/AI-Gemini_1.5_Flash-blue)
+![Udha Architecture](https://img.shields.io/badge/AI-Gemini_2.5_Pro-blue)
 ![Backend](https://img.shields.io/badge/Backend-Python_|_FastAPI-green)
 ![Frontend](https://img.shields.io/badge/Frontend-React_|_Vite-cyan)
 
@@ -8,12 +8,12 @@
 Navigating public transit in Prishtina can be challenging due to a lack of centralized, real-time information. Commuters often struggle to find the most efficient routes, determine transfer points, or anticipate delays caused by unpredictable traffic, weather conditions, or city events. 
 
 ## 🤖 The AI Solution
-**Udha** is an intelligent, location-aware transit assistant designed to simplify urban mobility. I integrated **Google Gemini 1.5 Flash** using the **Google Agent Development Kit (ADK)** to create an AI agent capable of understanding natural language queries in Albanian. 
+**Udha** is an intelligent, location-aware transit assistant designed to simplify urban mobility. I integrated **Google Gemini 2.5 Pro** using the **Google Agent Development Kit (ADK)** to create an AI agent capable of understanding natural language queries in Albanian. 
 
 Leveraging a **Retrieval-Augmented Generation (RAG)** approach, the agent dynamically accesses structured local data (`JSON`) for bus routes and stations. Through advanced **Function Calling (Tools)**, the LLM autonomously executes Python functions to calculate distances from user GPS coordinates, plan direct or multi-stop routes, and factor in real-time context (weather, rush hours, city events) to predict transit delays.
 
 ## 🛠️ Tech Stack
-* **AI & LLM Integration:** Google GenAI SDK / Agent Development Kit (ADK), Gemini 1.5 Flash
+* **AI & LLM Integration:** Google GenAI SDK / Agent Development Kit (ADK), Gemini 2.5 Pro
 * **Backend:** Python, FastAPI (for building scalable AI workflows and APIs)
 * **Frontend:** React (Vite), TypeScript, Leaflet.js (for interactive mapping and live GPS tracking)
 * **Data Handling:** JSON (for structured data preparation and prompt augmentation)
